@@ -79,6 +79,8 @@ return [
      */
     'default_loading_attribute_value' => 'auto',
 
+    'file_namer' => App\MediaFileNamer::class,
+
     /*
      * This is the class that is responsible for naming conversion files. By default,
      * it will use the filename of the original and concatenate the conversion name to it.
